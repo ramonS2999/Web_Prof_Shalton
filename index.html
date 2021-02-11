@@ -5,28 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png" />
+    <link rel="manifest" href="/size.webmanifest" />
+
     <title>Loja</title>
 </head>
 <body>
-    <div class="conteiner001">
-        <img id="imagem" src="capa.jpg" alt="Trulli" width="1920" height="547">
-        <h1 id="texto">Loja</h1>
-    </div>
 
-    <conteiner id="conteiner_01">
-        <div>
-            <a href="atendimento.html">Atendimento</a>
-        </div>
-        <div>
-            <a href="meusPedidos.html">Meus Pedidos</a>
-        </div>
-    </conteiner>
+    <div class="conteiner">
 
-    <img src="programming.gif" alt="Computer man" style="width:60px;height:60px;">
+        <header>
+            <div class="conteiner001">
+                <img id="imagem" src="imagens/capa.jpg" alt="Trulli" width="1920" height="547">
+            </div>
+            <div class="banner">
+                <h1>Loja</h1>
+                <p>A melhor Loja do Basil</p>
+                <button><a href="atendimento.html">Atendimento</a></button>
+                <button><a href="meusPedidos.html">Meus Pedidos</a></button>
+            </div>
+        </header>
 
-    <conteiner>
-        <div>
-            <h2>Lista das Categorias</h2>
+        <div class="lista-categorias">
+            <div class="titulo">
+                <h2>Lista das Categorias</h2>
+            </div>
             <ol>
                 <li>Cinema e Fotografia</li>
                 <li>Vídeo</li>
@@ -34,110 +39,68 @@
                 <li>Informática</li>
             </ol>  
         </div>
-    </conteiner>
 
-    <conteiner>
-        <div>
-            <h1>Ofertas</h1>
-        </div>
-    </conteiner>
-    
-    <conteiner>
-
-        <div class="grid-container">
-
-            <div>
-                <h2>Avatar</h2>
-                <p>
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                </p>
+        <section class="sessao-ofertas">
+            <div class="sessao-header">
+                <h1>Ofertas</h1>
             </div>
-
-            <div>
-                <h2>Zé Ramalho</h2>
-                <p>
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                </p>    
+            <div class="ofertas">
+                <div class="oferta">
+                    <div class="oferta-header">
+                        <i class="fab"></i>
+                        <h3>Avatar</h3>
+                    </div>
+                    <div class="oferta-text">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam omnis atque tempore animi vitae, sunt modi sint id vero autem tenetur, cupiditate sit magni numquam sapiente, possimus dolor delectus iste!</p>
+                    </div>
+                </div>
+                <div class="oferta">
+                    <div class="oferta-header">
+                        <i class="fab"></i>
+                        <h3>Zé Ramalho</h3>
+                    </div>
+                    <div class="oferta-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eligendi vitae libero, non sit sunt sapiente, reiciendis suscipit quo, explicabo assumenda fugit est quas? Ipsam debitis perferendis similique nisi illum!</p>
+                    </div>
+                </div>
+                <div class="oferta">
+                    <div class="oferta-header">
+                        <i class="fab"></i>
+                        <h3>Alcione</h3>
+                    </div>
+                    <div class="oferta-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam vel repellat id labore. Ratione dolor dicta consectetur adipisci temporibus ipsa, tenetur illo nemo cum enim. Autem laboriosam et sapiente?</p>
+                    </div>
+                </div>
+                <div class="oferta">
+                    <div class="oferta-header">
+                        <i class="fab"></i>
+                        <h3>Dell</h3>
+                    </div>
+                    <div class="oferta-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam culpa corrupti possimus dicta illo tempore. Odit ullam corporis quam veritatis aut officia, eum quas suscipit! Esse impedit voluptatum rerum maxime.</p>
+                    </div>
+                </div>
+                <div class="oferta">
+                    <div class="oferta-header">
+                        <i class="fab"></i>
+                        <h3>Iphone</h3>
+                    </div>
+                    <div class="oferta-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ullam debitis ducimus in doloribus quibusdam architecto, natus nostrum veniam recusandae vero tempora. Repellat corrupti illo eveniet? Dignissimos repellendus vel enim.</p>
+                    </div>
+                </div>
+                <div class="oferta">
+                    <div class="oferta-header">
+                        <i class="fab"></i>
+                        <h3>Disquete</h3>
+                    </div>
+                    <div class="oferta-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odio inventore facere illum veniam autem dicta quia! Dolorum ab autem esse consequatur cupiditate eaque deserunt maiores, neque cumque architecto soluta.</p>
+                    </div>
+                </div>
             </div>
-            
-            <div>
-                <h2>Alcione</h2>
-                <p>
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                </p>
-            </div>
-            
-            <div>
-                <h2>Dell</h2>
-                <p>
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                </p>
-            </div>
-
-            <div>
-                <h2>Iphone</h2>
-                <p>
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                </p>
-            </div>
-
-            <div>
-                <h2>Disquete</h2>
-                <p>
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                    lkjfaçlgjçlkfj çlkjlkçjçlçlkjçlkj kjsfgklçajfçljgçlk
-                </p>
-            </div>
-
-        </div>
-    </conteiner>
+        </section>
 
 </body>
 </html>
