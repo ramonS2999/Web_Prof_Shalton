@@ -86,6 +86,19 @@ header {
   animation: moveBanner 1s 0.9s forwards;
 }
 
+.home {
+  font-family: "Muli", serif;
+  color: black;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  background-color: purple;
+  padding: 0.5rem 2.5rem;
+  border: nome;
+  opacity: 0;
+  animation: moveBanner 1s 0.9s forwards;
+}
+
 @keyframes moveBanner {
   0%{
     transform: translateY(10rem) rotateY(-30deg);
