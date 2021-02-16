@@ -243,9 +243,14 @@ header {
     margin-top: 1rem;
   }
 
-  footer {
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 10px;
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
 
-  }
+footer p {
+  font-family: var(--font-secundary);
+  margin-top: 1rem;
+}
